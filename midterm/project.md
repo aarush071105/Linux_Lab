@@ -77,8 +77,7 @@ done
 ## **Full Shell Script**
 
 ```bash
-#!/usr/bin/env bash
-# daily_log.sh � Daily User Log Archiver
+#!/usr/bin/bash
 
 set -u
 BASE_DIR="${HOME}/daily_logs"

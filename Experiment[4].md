@@ -87,13 +87,14 @@ echo "Division: $((num1 / num2))"
 ## Command(s):
 ```
 #!/bin/bash
-echo "Enter your age"
-read Aarush
-if [ Aarush -ge 18 ]
+echo "Enter your age: "
+read age
+
+if [ $age -ge 18 ]
 then
-echo "you are eligible to vote"
+    echo "You are eligible to vote."
 else
-echo "you are not eligible to vote"
+    echo "Sorry, you are not eligible to vote."
 fi
 ```
 
